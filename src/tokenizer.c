@@ -92,6 +92,6 @@ void free_tokens(char **tokens) {
     while (tokens[i] != NULL) {
         free(tokens[i]);
         i++;
-    }
+    }   
     free(tokens);
 }
